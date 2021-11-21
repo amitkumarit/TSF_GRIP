@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.bac{
+    
+    background: url(front.jpg) no-repeat;
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 180%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    padding-top: 10px;
+    padding: 80px;
+} 
+
+.main{
+    background-color: black;
+    max-width: 1000px;
+    
+    display: inline;
+}
+
+.main ul{
+    float:right;
+    /* list-style-type: none; */
+    margin-top: -150px;
+    padding: 20px;
+}
+
+.main ul li{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.main ul li a{
+    text-decoration: none;
+    font-size: 180%;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    transition: 0.4s ease;
+}
+
+
+.main ul li a:hover{
+    background-color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
+}
+
+
+
+.main2{
+    float: inline-end;
+    margin-top: 55px;
+    margin-left: 20%;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.main2 h2{
+    opacity: 75%;
+    color: white;
+}
+
+.main2 p{
+    padding-top: 10px;
+    opacity: 60%;
+    color: white;
+    width: 400px;
+}
+
+.main2 input{
+    
+    color: white;
+    margin-top: 10px;
+    width: 75px;
+    height: auto;
+    padding: 10px;
+    background: none;
+    border: 1px rgb(95, 94, 94) solid;
+    transition: 0.4s;
+}
+
+.main2 input:hover{
+    background: rgb(95, 94, 94);
+    color: black;
+}
+
+.cost{
+    margin-top: -240px;
+    
+    /* padding: 0; */
+    background: rgb(5, 199, 79);
+}
+
+.cost1{
+    color: white;
+    margin-left: 16%;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    
+}
+
+.tlogo{
+    font-size: 180%;
+    
+    margin-left: 29%;
+    padding-bottom: 60px;
+}
+
+.cost1 table{
+    border-collapse: collapse;
+    width: 80%;
+    
+    color: #000000;
+    font-size: 150%;
+    font-family: monospace;
+    text-align: center;
+}
+
+.cost1 table th{
+    background-color: rgb(145, 138, 140);
+    color: black;
+}
+
+.cost1 table tr:nth-child(even){
+    background-color: #c99a9a;
+}
+
+.cost1 table tr:nth-child(odd){
+    background-color: #aa5e5e;
+}
+
+
+
+.last{
+    background-color: rgb(205, 155, 245);
+    width: 100%;
+    margin-top: -18px;
+    display: flex;
+    position: absolute;
+    /* margin-top: 2%; */
+    margin-bottom: 70%;
+    /* margin-left: 27%; */
+    
+}
+
+.address{
+    width: 200px;
+    text-align: center;
+    margin: 20px 70px 50px;
+}
+
+.follow{
+    width: 200px;
+    text-align: center;
+    margin: 20px 260px 5px;
+}
+
+.contact{
+    width: 200px;
+    text-align: center;
+    margin: 20px 10px 20px;
+}
+
+.follow .fol{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+}
+
+.follow .fol li{
+    list-style: none;
+    margin: 0 20px 10px;
+    transform: translateY(10px);
+    transition: 0.5s;
+}
+
+.follow .fol li a{
+    color: black;
+    font-size: 24px;
+}
+
+.follow .fol li a:hover{
+    font-size: 30px;
+}
+
